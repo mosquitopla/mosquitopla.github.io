@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+    
+.parent{
+    width: 80%;
+    background: yellow;
+    margin-left: 10%;
+    position: relative;
+}
+
+.child{
+    width: 50%;
+    height: 200px;
+    background: lightgreen;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    top: auto;
+    z-index: 9000;
+}
