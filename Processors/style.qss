@@ -1,0 +1,74 @@
+QWidget {
+    background-color: #f8f9fa;
+    font-family: Segoe UI, Arial;
+    font-size: 12pt;
+    color: #212529;
+}
+
+
+QPushButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 12px;
+    min-width: 40px;      /* мінімальна ширина */
+    max-width: 200px;      /* фіксована ширина */
+}
+
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+
+QPushButton:disabled {
+    background-color: #a0a0a0;
+}
+
+
+QTableWidget {
+    background-color: white;
+    alternate-background-color: #aeb4c6ff;
+    gridline-color: #dee2e6;
+    border: 1px solid #ced4da;
+    selection-background-color: #3399ff;
+    selection-color: white;
+}
+
+
+/* Заголовки таблиць */
+QHeaderView::section {
+    background-color: #e9ecef;
+    color: #212529;
+    padding: 6px;
+    border: 1px solid #dee2e6;
+    font-weight: bold;
+}
+
+
+/* Вирівнювання тексту по центру */
+QHeaderView::section:horizontal {
+    text-align: center;
+}
+
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+
+QDialog {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+}
+
+
+QLabel {
+    font-weight: 500;
+}
+
+

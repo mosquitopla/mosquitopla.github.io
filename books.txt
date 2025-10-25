@@ -1,0 +1,2 @@
+Book1|Author1|2025|True
+Book2|Author2|2025|True
