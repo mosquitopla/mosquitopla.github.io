@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 49px;
+}
+
+.menu {
+    list-style: none;
+    background-color: #2f5d8a;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #1e3f5f;
+}
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    min-width: 20%;
+    background-color: #3b6ea5;
+    color: white;
+    padding: 0;
+}
+
+.sidebar h2 {
+    margin-top: 15px; 
+}
+
+.sidebar hr {
+    border: none;
+    border-top: 2px solid white;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.content {
+    flex: 1;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.content hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 25px 20px 25px 50px; 
+    width: auto;
+    display: block;
+}
+
+.content ol li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.job-date {
+    white-space: nowrap;
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.education-main li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.edu-content {
+    line-height: 2;
+}
+
+.sidebar > h2, .sidebar > h3, .sidebar > p, .sidebar > ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+} 
+.content > h1, .content > h2, .content > p, .content > ol, .content > ul, .content > .experience-list {
+    padding-left: 50px;
+    padding-right: 20px;
+    list-style: none;
+}
+
+.experience-list li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.photo-box {
+    padding: 20px 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
