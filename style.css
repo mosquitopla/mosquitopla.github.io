@@ -101,7 +101,7 @@ body {
     padding-right: 20px;
     list-style: none;
 } 
-.content > h1, .content > h2, .content > p, .content > ol, .content > ul, .content > .experience-list {
+.content section > h1, .content section > h2, .content section > p, .content section > ol, .content section > ul, .content section > .experience-list {
     padding-left: 50px;
     padding-right: 20px;
     list-style: none;
@@ -138,4 +138,60 @@ ul, ol {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+}
+
+
+#portfolio {
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+#portfolio h2 {
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.portfolio-content {
+    width: 100%;
+}
+
+.grid-btn {
+    display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #3b6ea5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #2c527a;
+}
+
+.lab-group {
+    margin-bottom: 35px;
+}
+
+.lab-group h3 {
+    padding-left: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.task-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+    background-color: #4a76a8;
+}
+
+.lab-group .button-grid {
+    padding-left: 20px;
 }
