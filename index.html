@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,40 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <ul class="menu">
-            <li><a href="#home">Головна</a></li>
-            <li><a href="#portfolio">Портфоліо</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-        </ul>
-        <div class="container">
-            <div class="sidebar">
-                <div class="photo-box">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#portfolio">Портфоліо</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <aside class="sidebar">
+                <figure class="photo-box">
                     <img src="avatar.png" alt="" class="avatar">
-                </div>
-                <h2>Особисті дані</h2>
-                <hr>
-                <p><b>Ім'я:</b> Олександр Козак</p>
-                <p><b>Телефон:</b> +38 067 471-86-33</p>
-                <p><b>Email:</b> oleksandrkozak@gmail.com</p>
-                <p><b>Дата народження:</b> 22-11-2007</p>
+                </figure>
 
-                <h3>Інтереси</h3>
-                <hr>
-                <ul>
-                    <li>Програмування</li>
-                    <li>Дизайн</li>
-                    <li>Робототехніка</li>
-                </ul>
+                <section id="contacts"></section>
+                    <h2>Особисті дані</h2>
+                    <hr>
+                    <p><b>Ім'я:</b> Олександр Козак</p>
+                    <p><b>Телефон:</b> +38 067 471-86-33</p>
+                    <p><b>Email:</b> oleksandrkozak@gmail.com</p>
+                    <p><b>Дата народження:</b> 22-11-2007</p>
+                </section>
 
-                <h3>Мови</h3>
-                <hr>
-                <ul>
-                    <li>Українська - рідна</li>
-                    <li>Англійська - Середній</li>
-                </ul>
-            </div>
+                <section>
+                    <h3>Інтереси</h3>
+                    <hr>
+                    <ul>
+                        <li>Програмування</li>
+                        <li>Дизайн</li>
+                        <li>Робототехніка</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>Мови</h3>
+                    <hr>
+                    <ul>
+                        <li>Українська - рідна</li>
+                        <li>Англійська - Середній</li>
+                    </ul>
+                </section>
+            </aside>
 
-            <div class="content">
+            <article class="content">
                 <section id="home">
                     <h1>Олександр Козак</h1>
                     <h2>Досвід роботи</h2>
@@ -103,7 +115,12 @@
                         </div>
                     </div>
                 </section>
-            </div>
-        </div>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Всі права захищені</p>
+        </footer>
+
     </body>
 </html>

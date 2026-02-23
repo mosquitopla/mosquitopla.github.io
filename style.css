@@ -56,6 +56,10 @@ body {
     margin: 15px 0;
 }
 
+.sidebar li {
+    margin-bottom: 15px;
+}
+
 .content {
     flex: 1;
     position: relative;
@@ -96,15 +100,20 @@ body {
     line-height: 2;
 }
 
-.sidebar > h2, .sidebar > h3, .sidebar > p, .sidebar > ul {
+.sidebar section h2, .sidebar section h3, .sidebar section p, .sidebar section ul {
     padding-left: 20px;
     padding-right: 20px;
     list-style: none;
 } 
-.content section > h1, .content section > h2, .content section > p, .content section > ol, .content section > ul, .content section > .experience-list {
+article.content section > h1, article.content section > h2, article.content section > p, article.content section > ol, article.content section > ul, article.content section > .experience-list {
     padding-left: 50px;
     padding-right: 20px;
     list-style: none;
+}
+
+.sidebar h2, .sidebar h3, .sidebar p {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .experience-list li {
@@ -194,4 +203,16 @@ ul, ol {
 
 .lab-group .button-grid {
     padding-left: 20px;
+}
+
+footer {
+    background-color: #3b6ea5;
+    padding: 20px 0;
+    
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin: 0;
 }
