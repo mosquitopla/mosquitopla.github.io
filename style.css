@@ -39,7 +39,6 @@ body {
 
 .sidebar {
     width: 20%;
-    min-width: 20%;
     background-color: #3b6ea5;
     color: white;
     padding: 0;
@@ -63,7 +62,7 @@ body {
 .content {
     flex: 1;
     position: relative;
-    padding: 0;
+    padding: 20px 20px 20px 50px;
     overflow: hidden;
     line-height: 1.5;
 }
@@ -71,8 +70,8 @@ body {
 .content hr {
     border: none;
     border-top: 2px solid #ccc;
-    margin: 25px 20px 25px 50px; 
-    width: auto;
+    margin: 25px 0; 
+    width: 100%;
     display: block;
 }
 
@@ -100,20 +99,9 @@ body {
     line-height: 2;
 }
 
-.sidebar section h2, .sidebar section h3, .sidebar section p, .sidebar section ul {
-    padding-left: 20px;
-    padding-right: 20px;
+.sidebar h2, .sidebar h3, .sidebar p, .sidebar ul {
+    padding: 0 20px;
     list-style: none;
-} 
-article.content section > h1, article.content section > h2, article.content section > p, article.content section > ol, article.content section > ul, article.content section > .experience-list {
-    padding-left: 50px;
-    padding-right: 20px;
-    list-style: none;
-}
-
-.sidebar h2, .sidebar h3, .sidebar p {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .experience-list li {
@@ -156,7 +144,6 @@ ul, ol {
 }
 
 #portfolio h2 {
-    padding-left: 50px;
     margin-bottom: 10px;
 }
 
@@ -166,9 +153,9 @@ ul, ol {
 
 .grid-btn {
     display: flex;
-    padding-left: 50px;
     gap: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -190,7 +177,6 @@ ul, ol {
 }
 
 .lab-group h3 {
-    padding-left: 50px;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -201,9 +187,6 @@ ul, ol {
     background-color: #4a76a8;
 }
 
-.lab-group .button-grid {
-    padding-left: 20px;
-}
 
 footer {
     background-color: #3b6ea5;
