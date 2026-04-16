@@ -1,0 +1,68 @@
+.mark-sheet {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #e2f9d3;
+  width: 50%;
+}
+
+.mark-sheet th, 
+.mark-sheet td {
+  border: 1px solid #4a7023;
+  padding: 10px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.mark-sheet th.main-header {
+  text-align: center;
+  background-color: #6cc417;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mark-sheet td:nth-child(even), 
+.mark-sheet thead th:nth-child(even) {
+    background-color: #d1f2b1;
+}
+
+
+.float-table {
+  width: 50%;
+  margin-top: 50px;
+  background-color: #e2f9d3;
+  overflow: hidden;
+}
+
+.f-header {
+    background-color: #6cc417;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    border: 1px solid #4a7023;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.f-row {
+  clear: both;
+  border-bottom: 1px solid #4a7023;
+}
+
+.f-cell {
+    float: left;
+    width: 16.66%; 
+    box-sizing: border-box;
+    padding: 10px;
+    border-right: 1px solid #4a7023;
+    border-bottom: 1px solid #4a7023;
+    min-height: 45px;
+}
+
+.f-cell:last-child {
+  border-right: none;
+}
+
+.f-row:nth-child(even) {
+  background-color: #d1f2b1;
+}
