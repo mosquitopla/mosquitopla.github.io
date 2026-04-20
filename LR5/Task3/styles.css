@@ -31,6 +31,9 @@
   margin-top: 50px;
   background-color: #e2f9d3;
   overflow: hidden;
+  border-left: 1px solid #4a7023;
+  border-top: 1px solid #4a7023;
+  border-right: 1px solid #4a7023;
 }
 
 .f-header {
@@ -39,14 +42,20 @@
     text-align: center;
     padding: 12px 0;
     font-weight: bold;
-    border: 1px solid #4a7023;
+    border-bottom: 1px solid #4a7023;
+    border-right: 1px solid #4a7023;
     width: 100%;
     box-sizing: border-box;
 }
 
 .f-row {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
   clear: both;
-  border-bottom: 1px solid #4a7023;
 }
 
 .f-cell {
@@ -63,6 +72,6 @@
   border-right: none;
 }
 
-.f-row:nth-child(even) {
-  background-color: #d1f2b1;
+.f-row .f-cell:nth-child(even) {
+    background-color: #d1f2b1;
 }
