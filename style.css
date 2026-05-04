@@ -189,7 +189,7 @@ ul, ol {
 
 
 footer {
-    background-color: #3b6ea5;
+    background-color: #2f5d8a;;
     padding: 20px 0;
     
 }
@@ -198,4 +198,34 @@ footer p {
     text-align: center;
     color: white;
     margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Відстань між іконками */
+}
+
+.icon {
+    display: inline-block;
+    margin-top: 10px;
+    width: 64px;
+    height: 64px;
+    background-image: url('links/social-sprite.png');
+    background-size: 192px 64px;
+}
+
+.icon-tkt {
+    background-position: 0 0;
+}
+
+.icon-inst {
+    background-position: -64px 0;
+}
+
+.icon-x {
+    background-position: -128px 0;
 }
