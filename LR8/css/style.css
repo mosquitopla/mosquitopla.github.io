@@ -90,7 +90,6 @@ header h1 {
     margin: 0 8px;
     padding: 45px 20px;
     box-sizing: border-box;
-    vertical-align: top;
     text-align: left;
     background-size: cover;
     background-position: center;
@@ -124,13 +123,6 @@ header h1 {
 .photo img {
     width: 300px;
     height: 300px;
-    object-fit: cover;
-    filter: grayscale(30%);
-    transition: 0.5s;
-}
-
-.photo img:hover {
-    filter: grayscale(0%);
 }
 
 #subscribe {
