@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    font-family: "Times New Roman";
+}
+
+.title::before,
+.title::after {
+    content: "";
+    flex: 1;
+    height: 3px;
+    background: black;
+}
+
+.title::before {
+    margin-right: 15px;
+}
+
+.title::after {
+    margin-left: 15px;
+}
