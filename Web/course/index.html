@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Купуйте натуральні та екологічно чисті продукти від локальних фермерів. Швидка доставка свіжих овочів, фруктів та зелені до вашого столу.">
+    <title>Органічна їжа та свіжі фермерські продукти | Органік</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Roboto:wght@400;500&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container header-row">
+            <a href="index.html" class="logo">
+                <span class="logo">
+                    <img src="icons/logo.svg" alt="Логотип">
+                </span>Органік
+            </a>
+            
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href="index.html" class="menu-link active">Головна</a></li>
+                    <li><a href="about.html" class="menu-link">Про нас</a></li>
+                    <li><a href="shop.html" class="menu-link">Каталог</a></li>
+                    <li><a href="error404.html" class="menu-link">Наші ферми</a></li>
+                    <li><a href="news.html" class="menu-link">Блог</a></li>
+                    <li><a href="contacts.html" class="menu-link">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <div class="user-panel">
+
+                <div class="search-box">
+                    <input type="text" placeholder="Пошук...">
+                    <button class="search-btn" aria-label="Пошук">
+                        <svg class="search-icon-img">
+                            <use href="icons/sprite.svg#search-icon"></use>
+                        </svg>
+                    </button>
+                </div>
+
+                <a href="#" class="cart">
+                    <div class="cart-icon">
+                        <svg class="cart-icon-img">
+                            <use href="icons/sprite.svg#cart-icon"></use>
+                        </svg>
+                    </div>
+                    <span class="cart-count">Кошик (0)</span>
+                </a>
+
+                <button class="burger-btn" aria-label="Відкрити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-info">
+                    <span class="sub-title">100% Натуральні продукти</span>
+                    <h1 class="main-title">Обирайте найкраще для здорового життя</h1>
+                    <a href="shop.html" class="btn btn-yellow">
+                        <span>До каталогу</span>
+                        <svg class="btn-icon" aria-hidden="true">
+                            <use href="icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container banners-row">
+                
+                <a href="error404.html" class="card-link">
+                    <article class="card card-natural">
+                        <span class="sub-title text-white">Натурально!</span>
+                        <h3 class="card-title">Свіжі фрукти прямо з саду</h3>
+                    </article>
+                </a>
+                
+                <a href="#vegetables-offer" class="card-link">
+                    <article class="card card-offer">
+                        <span class="sub-title">Пропозиція!</span>
+                        <h3 class="card-title">Знижка 10% на фермерські овочі</h3>
+                    </article>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container about-row">
+                
+                <div class="about-photo">
+                    <img src="images/main/composition-of-fruits-and-vegetables-in-rainbow-colors.jpg" alt="Свіжі фермерські еко-продукти" class="img-responsive">
+                </div>
+
+                <div class="about-text">
+                    <span class="sub-title">Про нас</span>
+                    <h2 class="section-title">Ми віримо в чесну працю сертифікованих фермерів</h2>
+                    <p class="description">
+                        Ми об'єднали локальні сімейні господарства України, які відмовилися від хімічних добрив на користь екологічного землеробства. Кожен продукт на вашому столі — це результат дбайливого ставлення до землі.
+                    </p>
+
+                    <div class="advantages">
+                        <div class="adv-item">
+                            <img src="icons/only-organic-product.svg" alt="Тільки органічні продукти" class="adv-icon">
+                            <div class="adv-info">
+                                <h4>Тільки органічні продукти</h4>
+                                <p>Вирощено без пестицидів, ГМО та штучних хімікатів.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="adv-item">
+                            <img src="icons/quality.svg" alt="Стандарти якості" class="adv-icon">
+                            <div class="adv-info">
+                                <h4>Стандарти якості</h4>
+                                <p>Усі наші фермери проходять суворий екологічний контроль.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="about.html" class="btn btn-blue">
+                        <span>Читати більше</span>
+                        <svg class="btn-icon" aria-hidden="true">
+                            <use href="icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="center-title">
+                    <span class="sub-title">Категорії</span>
+                    <h2 class="section-title">Наші продукти</h2>
+                </div>
+
+                <div class="products-grid">
+                    
+                    <article class="item-card">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/kapusta_brokoli.png" alt="Броколі">
+                        </div>
+                        <h4 class="item-name">Капуста Броколі</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">50.00 ₴</span> 45.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Фрукти</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/banana.png" alt="Банани">
+                        </div>
+                        <h4 class="item-name">Органічні Банани</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">70.00 ₴</span> 63.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Горіхи</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/almond.png" alt="Горіхи">
+                        </div>
+                        <h4 class="item-name">Мигдаль</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">560.00 ₴</span> 504.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/tomaty_cherry.png" alt="Томати чері">
+                        </div>
+                        <h4 class="item-name">Червоні Томати Чері</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">180.00 ₴</span> 162.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/cucumber.png" alt="Огірки">
+                        </div>
+                        <h4 class="item-name">Огірки</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">60.00 ₴</span> 54.00 ₴</div>
+                           <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Горіхи</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/hazelnut.png" alt="Фундук">
+                        </div>
+                        <h4 class="item-name">Лісовий Фундук</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">200.00 ₴</span> 180.00 ₴</div>
+                           <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Ферма</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/eggs.png" alt="Яйця">
+                        </div>
+                        <h4 class="item-name">Домашні Яйця (коробка)</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">180.00 ₴</span> 162.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="item-card">
+                        <span class="item-badge">Бакалія</span>
+                        <div class="item-img">
+                            <img src="images/main/cards/bread.png" alt="Хліб">
+                        </div>
+                        <h4 class="item-name">Житній хліб на заквасці</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">48.00 ₴</span> 43.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="center-btn-box">
+                    <a href="shop.html" class="btn btn-blue">
+                        <span>Показати ще</span>
+                        <svg class="btn-icon" aria-hidden="true">
+                            <use href="icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <div class="container">
+                <div class="center-title">
+                    <span class="sub-title">Відгуки</span>
+                    <h2 class="section-title">Що говорять наші клієнти?</h2>
+                </div>
+
+                <div class="swiper reviews-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <div class="user-avatar">
+                                    <img src="images/main/avatar/maria-kovalchuk.png" alt="Марія Ковальчук">
+                                </div>
+                                <div class="review-stars">
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                </div>
+                                <p class="review-text">""Продукти просто неймовірної якості! Овочі завжди приїжджають хрумкими та свіжими, ніби щойно з грядки. Дитина обожнює ваші банани, а я в захваті від натурального житнього хліба. Дякую за чесну працю!""</p>
+                                <h5 class="client-name">Марія Ковальчук</h5>
+                                <span class="client-status">Постійний покупець</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <div class="user-avatar">
+                                    <img src="images/main/avatar/natalia-kravchenko.jpg" alt="Марія Ковальчук">
+                                </div>
+                                <div class="review-stars">
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                </div>
+                                <p class="review-text">"Продукти просто неймовірної якості! Овочі завжди приїжджають хрумкими та свіжими, ніби щойно з грядки. Дитина обожнює свіжі банани, а я в захваті від натурального житнього хліба. Дякую за чесну працю та турботу про здоров'я покупців!"</p>
+                                <h5 class="client-name">Наталя Кравченко</h5>
+                                <span class="client-status">Постійний покупець</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <div class="user-avatar">
+                                    <img src="images/main/avatar/dmytro-melnyk.jpg" alt="Марія Ковальчук">
+                                </div>
+                                <div class="review-stars">
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                    <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                </div>
+                                <p class="review-text">"Неймовірно задоволена високим рівнем сервісу! Свіжі ягоди та натуральні йогурти — це просто любов з першої ложки. Приємно вразило, що фрукти не мають жодного штучного присмаку, як це часто буває. Тепер замовляю тут постійно!"</p>
+                                <h5 class="client-name">Дмитро Мельник</h5>
+                                <span class="client-status">Постійний покупець</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <hr class="section-divider">
+
+                <div class="stats-row">
+                    <div class="stat-circle">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Органіка</div>
+                    </div>
+                    <div class="stat-circle">
+                        <div class="stat-number">285</div>
+                        <div class="stat-label">Активних товарів</div>
+                    </div>
+                    <div class="stat-circle">
+                        <div class="stat-number">350+</div>
+                        <div class="stat-label">Еко-господарств</div>
+                    </div>
+                    <div class="stat-circle">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Років досвіду</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vegetables-offer" class="dark-shop">
+            <div class="container">
+                <div class="dark-shop-header">
+                    <div class="left-titles">
+                        <span class="sub-title">Актуально</span>
+                        <h2 class="section-title text-white">Пропозиції спеціально для вас</h2>
+                    </div>
+                    <a href="shop.html" class="btn btn-yellow">
+                        <span>Усі товари</span>
+                        <svg class="btn-icon" aria-hidden="true">
+                            <use href="icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="products-grid">
+                    <article class="item-card card-white">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img"><img src="images/main/cards/corn.png" alt="Суцвіття Броколі"></div>
+                        <h4 class="item-name">Кукурудза Солодка</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">120.00 ₴</span> 108.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item-card card-white">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img"><img src="images/main/cards/zucchini.png" alt="Кабачки"></div>
+                        <h4 class="item-name">Кабачки молоді</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">60.00 ₴</span> 54.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item-card card-white">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img"><img src="images/main/cards/onion.png" alt="Цибуля"></div>
+                        <h4 class="item-name">Ріпчаста цибуля</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">19.00 ₴</span> 17.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="item-card card-white">
+                        <span class="item-badge">Овочі</span>
+                        <div class="item-img"><img src="images/main/cards/cabbage.png" alt="Капуста"></div>
+                        <h4 class="item-name">Капуста молода</h4>
+                        <div class="item-footer">
+                            <div class="price"><span class="old-price">30.00 ₴</span> 27.00 ₴</div>
+                            <div class="product-stars">
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                                <svg class="star-icon"><use href="icons/sprite.svg#star-icon"></use></svg>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="eco-store">
+            <div class="eco-store-row">
+                <div class="eco-field-photo"></div>
+                
+                <div class="eco-info-side">
+                    <span class="sub-title">Екологічно чисті ферми</span>
+                    <h2 class="section-title">Органік — це дружній простір натуральної їжі</h2>
+                    
+                    <div class="eco-text-blocks">
+                        <div class="text-block-item">
+                            <h5>Починаємо з нашої родини</h5>
+                            <p>Ми особисто куштуємо та перевіряємо кожну партію фруктів та овочів перед тим, як вони потраплять до вашого замовлення.</p>
+                        </div>
+                        <div class="text-block-item">
+                            <h5>Дізнайтеся, як виростити здорове майбутнє</h5>
+                            <p>Наші фермери використовують виключно натуральний перегній та біогумус, що зберігає природний вітамінний склад ґрунту.</p>
+                        </div>
+                        <div class="text-block-item">
+                            <h5>Сучасні стратегії органічного землеробства</h5>
+                            <p>Крапельний полив та дбайливе ставлення до ресурсів дозволяє нам збирати багатий врожай без шкоди для довкілля.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="gallery-grid">
+
+                <a href="error404.html" class="gallery-link">
+                    <div class="gallery-card juice-card">
+                        <span class="gallery-btn">Натуральні соки</span>
+                    </div>
+                </a>
+
+                <a href="error404.html" class="gallery-link">
+                    <div class="gallery-card food-card">
+                        <span class="gallery-btn">Органічна їжа</span>
+                    </div>
+                </a>
+
+                <a href="error404.html" class="gallery-link">
+                    <div class="gallery-card cookies-card">
+                        <span class="gallery-btn">Домашня випічка</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="container">
+                <div class="news-header">
+                    <div class="left-titles">
+                        <span class="sub-title">Наш блог</span>
+                        <h2 class="section-title">Корисні статті про органічну їжу</h2>
+                    </div>
+                   <a href="news.html" class="btn btn-white-border">
+                        <span>Більше новин</span>
+                        <svg class="btn-icon" aria-hidden="true">
+                            <use href="icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card card-vitamin-d-bg">
+                        <div class="date-badge">25<br><span>Трав</span></div>
+                        <div class="news-content-box">
+                            <span class="author">
+                                <img src="images/news/authors/author-1.avif" alt="Аватар Євген Коваль" class="author-img">
+                                Автор: Євген Коваль
+                            </span>
+                            <h4 class="news-card-title">Користь вітаміну D та як отримати його з натуральних продуктів</h4>
+                            <p class="news-excerpt">Дізнайтеся, які фермерські продукти містять найбільше сонячного вітаміну та як правильно скласти раціон на весну.</p>
+                            <a href="error404.html" class="btn btn-yellow btn-small">
+                                <span>Читати</span>
+                                <svg class="btn-icon" aria-hidden="true">
+                                    <use href="icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="news-card card-tomato-bg">
+                        <div class="date-badge">18<br><span>Трав</span></div>
+                        <div class="news-content-box">
+                            <span class="author">
+                                <img src="images/news/authors/author-2.jpg" alt=" Аватар Анна Маринич" class="author-img">
+                                Автор: Анна Маринич
+                            </span>
+                            <h4 class="news-card-title">Наші улюблені літні томати: від грядки до вашого столу</h4>
+                            <p class="news-excerpt">Секрети вирощування солодких томатів чері без краплі хімії. Поради щодо вибору найкращих сортів для салатів.</p>
+                            <a href="error404.html" class="btn btn-yellow btn-small">
+                                <span>Читати</span>
+                                <svg class="btn-icon" aria-hidden="true">
+                                    <use href="icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe-section">
+            <div class="container">
+                <div class="subscribe-banner">
+                    <h2 class="subscribe-title">Підпишіться на наші еко-новини</h2>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваша email адреса" required class="subscribe-input">
+                        <button type="submit" class="btn btn-blue">Підписатись</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            
+            <div class="footer-col text-right-desktop">
+                <h5 class="footer-col-title">Зв'яжіться з нами</h5>
+                
+                <address class="footer-contacts-address">
+                    <ul class="footer-contacts">
+                        <li>
+                            <strong>Електронна пошта</strong>
+                            <a href="mailto:info@organick.ua">info@organick.ua</a>
+                        </li>
+                        <li>
+                            <strong>Телефон гарячої лінії</strong>
+                            <a href="tel:0800500600">0 800 500 600</a>
+                        </li>
+                        <li>
+                            <strong>Наш головний офіс</strong>
+                            <span>вул. Фермерська, 12<br>Київ, 02000, Україна</span>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer-col footer-center-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo">
+                        <img src="icons/logo.svg" alt="Логотип">
+                    </span>Органік
+                </a>
+                <p class="footer-about-text">
+                    Ми щиро віримо, що здорове життя починається з правильної їжі. Тому ми щодня з любов'ю збираємо та доставляємо для вас найкращі натуральні продукти від локальних сімейних еко-ферм України.
+                </p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram">
+                        <svg><use href="icons/sprite.svg#instagram"></use></svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon" aria-label="Facebook">
+                        <svg><use href="icons/sprite.svg#facebook"></use></svg>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="social-icon" aria-label="YouTube">
+                        <svg><use href="icons/sprite.svg#youtube"></use></svg>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" class="social-icon" aria-label="TikTok">
+                        <svg><use href="icons/sprite.svg#tiktok"></use></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h5 class="footer-col-title">Корисна інформація</h5>
+                <ul class="footer-links">
+                    <li><a href="error404.html">Гід по еко-стилю</a></li>
+                    <li><a href="error404.html">Наші сертифікати якості</a></li>
+                    <li><a href="error404.html">Умови доставки та оплати</a></li>
+                    <li><a href="error404.html">Програма захисту природи</a></li>
+                    <li><a href="error404.html">Блог та рецепти від шефа</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>Copyright © <strong>Organick</strong> | Дизайн розроблено <strong>VictorFlow</strong> | Зверстано з любов'ю до природи</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <div class="modal-wrap" id="callbackModal">
+        <div class="modal-window">
+            
+            <div class="modal-header">
+                <h3>Оформлення запиту</h3>
+                <button class="close-modal-btn" id="closeModalBtn" aria-label="Закрити вікно">
+                    <svg class="close-icon"><use href="icons/sprite.svg#close-icon"></use></svg>
+                </button>
+            </div>
+
+            <form class="modal-form" id="requestForm">
+                
+                <div class="form-group">
+                    <label for="userLastName">Прізвище *</label>
+                    <input type="text" id="userLastName" placeholder="Петров" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userName">Ім'я *</label>
+                    <input type="text" id="userName" placeholder="Іван" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userMiddleName">По батькові *</label>
+                    <input type="text" id="userMiddleName" placeholder="Миколайович" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userPhone">Номер телефону *</label>
+                    <input type="tel" id="userPhone" placeholder="+38 (0__) ___-__-__" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userEmail">Електронна пошта *</label>
+                    <input type="email" id="userEmail" placeholder="example@organic.com" required>
+                </div>
+
+                <button type="submit" class="submit-form-btn">Відправити запит</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
