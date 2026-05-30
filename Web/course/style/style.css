@@ -1656,7 +1656,8 @@ address.locations-list {
     flex-shrink: 0;
 }
 
-.location-text h5 {
+.location-text strong {
+    display: block;
     font-size: 15px;
     font-weight: 700;
     margin-top: 0;
