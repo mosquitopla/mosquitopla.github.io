@@ -6,7 +6,6 @@ const phoneInput = document.getElementById('userPhone');
 
 if (cartHeaderBtn && modalOverlay) {
     cartHeaderBtn.addEventListener('click', function(event) {
-        event.preventDefault();
         modalOverlay.classList.add('is-open');
     });
 }
