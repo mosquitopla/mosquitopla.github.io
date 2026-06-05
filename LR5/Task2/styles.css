@@ -1,0 +1,50 @@
+.finance-table {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: #a0d8ef;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.finance-table th, .finance-table td {
+  padding: 15px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.finance-table th {
+  font-weight: bold;
+}
+
+
+
+.float-table {
+  margin-top: 50px;
+  width: 50%;
+  background-color: #a0d8ef;
+  font-family: sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.row {
+  clear: both;
+  border-bottom: 1px solid #fff;
+}
+
+.cell {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+
+.cell:last-child {
+  border-right: none;
+}
+
+.header {
+  font-weight: bold;
+}

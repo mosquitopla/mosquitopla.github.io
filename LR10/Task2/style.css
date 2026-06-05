@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.f-col, .nav-container, .nav-links, .hero-content, .service-icon, .blog-list, .blog-item, .footer-links {
+    display: flex;
+}
+
+.f-col, .hero-content, .blog-list, .blog-item, .nav-container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero {
+    background: url('img/jumbotron.jpg');
+    height: 450px;
+}
+
+.navbar {
+    background: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #5b9bd5;
+    text-align: center;
+}
+
+.nav-links {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.hero-content {
+    height: calc(450px - 90px);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.btn-hero {
+    background: #ff4081;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.services, .blog {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.services {
+    border-bottom: 1px solid #eee;
+}
+
+.services-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-icon {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.service-item p, .blog-content p {
+    font-size: 13px;
+}
+
+.service-item p {
+    color: #888;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.blog-list {
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.blog-date {
+    display: block;
+    font-size: 11px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.blog-content p {
+    color: #777;
+}
+
+.footer {
+    background: #343a40;
+    color: #b4bcc4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #777;
+}
+
+@media (min-width: 769px) {
+    .nav-container, .nav-links, .blog-item {
+        flex-direction: row;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .services, .blog {
+        padding: 60px 0;
+    }
+
+    .services-grid {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .service-item {
+        flex: 1;
+    }
+
+    .blog-item {
+        gap: 30px;
+    }
+
+    .blog-image {
+        flex: 0 0 240px;
+        height: 160px;
+    }
+}

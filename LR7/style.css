@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.main-container {
+    width: 1100px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 24px;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+
+.wrap {
+    position: relative;
+    border: 2px solid #ddd;
+    padding: 20px 0;
+}
+
+.swipe {
+    position: absolute;
+    top: 16%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+    cursor: pointer;
+    color: #ccc; 
+}
+
+.swipe__left { 
+    left: -15px; 
+}
+.swipe__right { 
+    right: -15px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+    padding: 20px 10px;
+    border-right: 2px solid #eee;
+    white-space: normal;
+    position: relative;
+}
+
+.product-card:last-child {
+    border-right: none;
+}
+
+.category {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0 -30px 20px -10px;  
+    border-bottom: 2px solid #eee;
+}
+
+.product-link {
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.product-card img {
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    color: #0099cc;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-bottom: 15px;
+    min-height: 20px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #333;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.current-price {
+    color: #000;
+    font-weight: bold;
+}
+
+.buy-btn, .status-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.buy-btn {
+    background-color: #ffee00;
+    color: #333;
+}
+
+.status-btn.soon {
+    background-color: #d12e8c;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.badge {
+    position: absolute;
+    top: -45px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.badge.new {
+    background-color: #8cc63f;
+}
+.badge.hit { 
+    background-color: #00aeef;
+}
